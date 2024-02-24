@@ -20,6 +20,8 @@ public class Pres2 {
         IMetier metier = (IMetier) cMetier.newInstance();
 
         Method method = cMetier.getMethod("setDao",IDao.class);
-        System.out.println(dao.getData());
+        method.invoke(metier,dao);
+        System.out.println("Result : "+metier.calcul());
+//        System.out.println(dao.getData());
     }
 }

@@ -1,2 +1,2 @@
-org.enset.ext.DaoImpl2
+org.enset.ext.DaoImplVWS
 org.enset.service.impl.MetierImpl
